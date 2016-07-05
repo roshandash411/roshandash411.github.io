@@ -1,0 +1,38 @@
+
+ body {
+			font-family: 'Indie Flower', cursive;
+			font-size:20px; 
+			color:#FFFFFF; 
+			font-family:arial; 
+			text-align:center; 
+		}
+		body::after {
+			content: "";
+			background: url(1.JPG) no-repeat center center fixed;
+			background-color: #000000;
+			background-size: cover cover;
+			//background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)); 
+			opacity: 0.9;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1;
+		}
+        h1 {font-size:500%; color:#000000; margin: 0px auto; color:#FFF;}
+        h3 {font-family: 'Indie Flower', cursive; font-size:2vw; color:#FFF; margin: 30px auto;}
+        h5 {font-family: 'PT Sans', sans-serif; font-size:1vw; margin: 15px auto;}
+        a:link {color: #dddddd;}
+        a:visited {color: #dddddd;}
+        a:active {color: #dddddd;}
+        a:hover {color: #dddddd;}
+        a {text-decoration:none;}
+		span.head_label{
+			background-color:rgba(51,51,51,0.7);
+			padding:15px;
+			font-size:3vw;
+			color:#FFF;
+			width:auto;
+			float:none;
+		}
