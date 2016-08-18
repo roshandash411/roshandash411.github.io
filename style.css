@@ -2,13 +2,12 @@
  body {
 			font-family: monospace, cursive;
 			font-size:20px; 
-			color:#2c3e50; 
 			font-family:arial; 
 			text-align:center; 
 		}
 		body::after {
 			content: "";
-			background-color: ##2c3e50;
+			background-color: #2c3e50;
 			background-size: cover cover;
 			opacity: 0.9;
 			top: 0;
