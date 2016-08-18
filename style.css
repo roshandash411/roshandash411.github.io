@@ -8,8 +8,7 @@
 		}
 		body::after {
 			content: "";
-			background: #F89406;
-			background-color: #000000;
+			background-color: #F89406;
 			background-size: cover cover;
 			opacity: 0.9;
 			top: 0;
