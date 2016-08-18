@@ -1,6 +1,6 @@
 
  body {
-			font-family: 'Indie Flower', cursive;
+			font-family: monospace, cursive;
 			font-size:20px; 
 			color:#FFFFFF; 
 			font-family:arial; 
@@ -8,7 +8,7 @@
 		}
 		body::after {
 			content: "";
-			background: url(1.JPG) no-repeat center center fixed;
+			background: #F89406;
 			background-color: #000000;
 			background-size: cover cover;
 			opacity: 0.9;
@@ -20,8 +20,8 @@
 			z-index: -1;
 		}
         h1 {font-size:500%; color:#000000; margin: 0px auto; color:#FFF;}
-        h3 {font-family: 'Indie Flower', cursive; font-size:2vw; color:#FFF; margin: 30px auto;}
-        h5 {font-family: 'PT Sans', sans-serif; font-size:1vw; margin: 15px auto;}
+        h3 {font-family: 'monospace', cursive; font-size:2vw; color:#FFF; margin: 30px auto;}
+        h5 {font-family: 'monospace', sans-serif; font-size:1vw; margin: 15px auto;}
         a:link {color: #dddddd;}
         a:visited {color: #dddddd;}
         a:active {color: #dddddd;}
